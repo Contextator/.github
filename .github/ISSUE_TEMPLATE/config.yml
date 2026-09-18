@@ -1,0 +1,13 @@
+# A security problem filed as an issue is public the moment it is filed, so the chooser offers the
+# route out of here before it offers a blank issue.
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Contextator/.github/blob/main/SECURITY.md
+    about: Do not open an issue. SECURITY.md says where a report goes instead.
+  - name: Questions and help
+    url: https://github.com/Contextator/.github/blob/main/SUPPORT.md
+    about: Where to look first, and what makes a question answerable in one round.
+  - name: Documentation
+    url: https://github.com/Contextator/Contextator/wiki
+    about: Installation, configuration, document sources, MCP tools, troubleshooting.
