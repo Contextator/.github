@@ -39,14 +39,16 @@ the server, its dashboard, and the documentation that comes with it.
 - **Incremental indexing.** Files are hashed; only what changed is re-embedded, and what was removed is
   deleted.
 
-Stack: TypeScript · Node.js 20+ · Fastify 5 · PostgreSQL 16 + pgvector · Drizzle ORM ·
+Stack: TypeScript · Node.js 22+ · Fastify 5 · PostgreSQL 16 + pgvector · Drizzle ORM ·
 `@modelcontextprotocol/sdk` · `@huggingface/transformers`. It ships as **one Docker container** holding
 both the database and the app.
 
 ## Try it
 
 ```bash
-git clone https://github.com/Contextator/Contextator.git contextator && cd contextator
+mkdir contextator && cd contextator
+curl -fsSLO https://raw.githubusercontent.com/Contextator/Contextator/main/docker-compose.yml
+curl -fsSLO https://raw.githubusercontent.com/Contextator/Contextator/main/.env.example
 cp .env.example .env
 docker compose up -d
 docker compose logs -f            # wait for "embedding model ready"
@@ -69,8 +71,10 @@ Markdown, and connect an agent to `http://localhost:3444/mcp/<project-name>`. Th
 
 ## Status
 
-Contextator is **pre-release**. `0.1.0` lives on `main`, no tag has been published yet, and upgrading
-means pulling and rebuilding. It is used and it works; treat the interfaces as still able to move.
+Contextator is **pre-release**. `0.1.0` lives on `main`; no git tag has been published yet. The Docker
+image is published as `contextator/contextator` (`latest` / `0.1` / `0.1.0`), and upgrading is
+`docker compose pull && docker compose up -d`. It is used and it works; treat the interfaces as still
+able to move.
 
 ## Who builds it
 
