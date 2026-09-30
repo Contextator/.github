@@ -13,6 +13,8 @@ http://localhost:3444/mcp/<project-name>
 [![Self-hosted](https://img.shields.io/badge/deployment-one%20Docker%20container-2496ed)](https://github.com/Contextator/Contextator#quick-start-docker)
 [![MCP](https://img.shields.io/badge/MCP-Streamable%20HTTP%20%2B%20SSE-6e56cf)](https://modelcontextprotocol.io)
 
+[![Designed & Maintained with Tan](https://www.muhammetsafak.com.tr/badges/designed-maintained-with-tan.svg)](https://www.muhammetsafak.com.tr/en/tan/)
+
 One organisation, one product: **[Contextator/Contextator](https://github.com/Contextator/Contextator)** —
 the server, its dashboard, and the documentation that comes with it.
 
