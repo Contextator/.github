@@ -1,6 +1,7 @@
 # A security problem filed as an issue is public the moment it is filed, so the chooser offers the
-# route out of here before it offers a blank issue.
-blank_issues_enabled: true
+# route out of here first. These are organisation-wide defaults, so the security link points at the
+# organisation's SECURITY.md rather than at one repository's private vulnerability reporting form.
+blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability
     url: https://github.com/Contextator/.github/blob/main/SECURITY.md

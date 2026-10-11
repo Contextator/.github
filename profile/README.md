@@ -5,13 +5,11 @@ folder, a git repository, an uploaded archive, an Obsidian vault, a Notion works
 own [Model Context Protocol](https://modelcontextprotocol.io) endpoint that AI agents (Claude Code, Claude
 Desktop, Cursor, …) can search semantically:
 
-```
+```text
 http://localhost:3444/mcp/<project-name>
 ```
 
 [![Licence: AGPL-3.0-or-later](https://img.shields.io/badge/licence-AGPL--3.0--or--later-4c1)](https://github.com/Contextator/Contextator/blob/main/LICENSE)
-[![Self-hosted](https://img.shields.io/badge/deployment-one%20Docker%20container-2496ed)](https://github.com/Contextator/Contextator#quick-start-docker)
-[![MCP](https://img.shields.io/badge/MCP-Streamable%20HTTP%20%2B%20SSE-6e56cf)](https://modelcontextprotocol.io)
 
 [![Designed & Maintained with Tan](https://www.muhammetsafak.com.tr/badges/designed-maintained-with-tan.svg)](https://www.muhammetsafak.com.tr/en/tan/)
 

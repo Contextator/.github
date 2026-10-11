@@ -1,0 +1,32 @@
+name: Feature request
+description: Something it should be able to do and cannot.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do? The problem, before any solution — what you are working on, and where the software gets in the way.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+      description: What would it look like? The setting, the screen, the API call or the flag you imagine. A rough shape is fine; being wrong about the design is not a problem.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What do you do today instead? The workaround, if there is one, and what it costs you.
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Who else does this affect?
+      description: Anything that suggests this is not only your setup.
+    validations:
+      required: false

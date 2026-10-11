@@ -1,15 +1,15 @@
-**What this changes, and why.** The diff says how; this says what problem it solves.
+## Summary
 
-**Related issue.** `Closes #123`, or why there is no issue.
+<!-- What this changes, and why, in 1-3 sentences. The diff says how; this says what problem it solves. -->
 
-**How it was verified.** The checks you ran and what you exercised by hand.
+## Related Issue
 
-**Anything a reviewer should look at twice.** A trade-off you are unsure about, a decision that could have
-gone the other way, a file that grew more than you expected.
+<!-- "Closes #<number>" or "None". -->
 
----
+## Checklist
 
-- [ ] The repository's own checks pass locally
-- [ ] Behaviour changes come with tests
-- [ ] The documentation the change makes untrue is corrected in the same pull request
-- [ ] This is one change, not several
+- [ ] The pull request title follows Conventional Commits.
+- [ ] Tests were added or updated (or are not needed).
+- [ ] Documentation was updated (or is not needed).
+- [ ] User-facing changes are added to `CHANGELOG.md` under `[Unreleased]`.
+- [ ] If this is a breaking change, the title contains `!` and the change is described above.
