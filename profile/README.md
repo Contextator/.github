@@ -81,7 +81,7 @@ able to move.
 ## Who builds it
 
 Contextator is a [Tunedness](https://tunedness.com) project, developed by
-[Muhammet Şafak](https://www.muhammetsafak.com.tr/en/).
+[Muhammet Şafak](https://muhammetsafak.com/).
 
 ## Licence
 

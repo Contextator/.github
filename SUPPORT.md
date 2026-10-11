@@ -32,5 +32,5 @@ good issue; it does not have to be a bug report. What makes it answerable in one
 ## Commercial support
 
 Contextator is a [Tunedness](https://tunedness.com) project, developed by
-[Muhammet Şafak](https://www.muhammetsafak.com.tr/en/). A commercial licence, or paid help with a
+[Muhammet Şafak](https://muhammetsafak.com/). A commercial licence, or paid help with a
 deployment, is arranged through [tunedness.com](https://tunedness.com).
