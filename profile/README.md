@@ -1,9 +1,11 @@
 # Contextator
 
-**Self-hosted, multi-tenant MCP documentation server.** Give a project its document sources — a mounted
-folder, a git repository, an uploaded archive, an Obsidian vault, a Notion workspace — and it becomes its
-own [Model Context Protocol](https://modelcontextprotocol.io) endpoint that AI agents (Claude Code, Claude
-Desktop, Cursor, …) can search semantically:
+**Self-hosted MCP server that turns your documentation into one semantically searchable endpoint per
+project.**
+
+Give a project its document sources — a mounted folder, a git repository, an uploaded archive, an
+Obsidian vault, a Notion workspace — and it becomes its own [Model Context Protocol](https://modelcontextprotocol.io)
+endpoint that AI agents (Claude Code, Claude Desktop, Cursor, …) can search:
 
 ```text
 http://localhost:3444/mcp/<project-name>
